@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="prepu-header full-width center"><span class="logo">TINYSTUDS</span></div>
+<div class="eighty-width center"><img src="{{ 'checkout-breadcrumbs.png' | asset_img_url: 'master' }}" class="responsive"></div>
+<div class="ninety-width center">
+  <h1>A not-so-tiny offer to welcome you to the tiny studs family (optional)</h1>
+  <!-- one row table to house the "MOST POPULAR" tag -->
+  <div class="prepu-row">
+    <div class="prepu-column">&nbsp;</div>
+    <div class="prepu-column"><span class="most-popular">MOST POPULAR</span></div>
+  </div>
+  <!-- end of one row "MOST POPULAR" table -->
+
+  <div class="prepu-row upsell-matrix">
+    <div class="prepu-column">
+      <div class="prepu-column-inner prepu-column-inner-left">
+        <div class="upsell-type-title">ADD ROSE GOLD PAIR</div>
+        <img src="{{ 'upsell-1-gold-rosegold.png' | asset_img_url: 'master' }}" class="color-discs">
+        <div><span class="gray-text">$38</span> <span>(Save 50%)</span></div>
+        <div class="green-text">+$19</div>
+        <input class='radio-left' type="radio" name="upsell" value="upsell1">
+      </div>
+     </div>
+    <div class="prepu-column">
+      <div class="prepu-column-inner prepu-column-inner-right selected">
+        <div class="upsell-type-title">COMPLETE THE SET</div>
+        <div class="upsell-type-description">Add Rose Gold<br> and Silver</div>
+        <img src="{{ 'upsell-2-gold-rosegold-silver.png' | asset_img_url: 'master' }}" class="color-discs">
+        <div><span class="gray-text">$76</span> <span>(Save 70%)</span></div>
+        <div class="green-text">+$23</div>
+        <input class='radio-right' type="radio" name="upsell" value="upsell2" checked="checked">
+      </div>
+     </div>
+  </div>
+
+  <a class='link' href="http://tinystuds.com/cart/40185303498939:1,40602300022971:1?discount=earlybird38
+">
+    <div class="prepu-button brown-button">Add To Order (+$<span class='amount'>23</span>)</div>
+  </a>
+  <a href="http://tinystuds.com/cart/40185303498939:1?discount=earlybird38">
+    <div class="prepu-button gray-button">Decline This One-Time Offer</div>
+  </a>
+</div>
+  <script src= 'app.js'></script>
+</body>
+</html>

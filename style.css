@@ -1,0 +1,123 @@
+
+.full-width {
+ width: 100%;
+}
+
+.eighty-width {
+ width: 80%;
+}
+
+.ninety-width {
+ width: 90%;
+}
+
+.upsell-matrix {
+ margin-top: 5px;
+}
+
+.most-popular {
+ color: #C2764A;
+ font-size: 14px;
+ letter-spacing: 1px;
+}
+
+.center {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.responsive {
+ width: 100%;
+ height: auto;
+}
+
+.color-discs {
+ height: 30px;
+ width: auto;
+ margin-top: 8px;
+ margin-bottom: 8px;
+}
+
+.prepu-header {
+ background: #FFD3B8;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ margin-bottom: 15px;
+}
+
+.prepu-header .logo {
+ font-size: 16px;
+ letter-spacing: 4px;
+}
+
+h1 {
+ font-size: 18px;
+ margin-top: 35px;
+ padding-bottom: 20px;
+}
+
+.prepu-row {
+ display: flex;
+}
+
+.prepu-column {
+ flex: 50%;
+}
+
+.prepu-column-inner {
+ border: 1px solid #7C7C7C;
+ padding: 12px 4px 8px 4px;
+}
+
+.prepu-column-inner-left {
+ margin: 0 6px 0 0;
+}
+
+.prepu-column-inner-right {
+ margin: 0 0 0 6px;
+}
+
+
+.green-text {
+ color: #009220;
+ font-weight: 600;
+}
+
+.gray-text {
+ color: #838383;
+}
+
+.upsell-type-title {
+ margin-bottom: 10px;
+ line-height: 1.2 !important;
+}
+
+.upsell-type-description {
+ line-height: 1.4 !important;
+ margin-bottom: 10px;
+}
+
+.prepu-button {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ margin-top: 15px;
+}
+
+
+.brown-button {
+ background: #C2764A;
+ color: #ffffff;
+}
+
+.gray-button {
+ background: #EFEFEF;
+ color: #686868;
+ border: 1px solid #E5E5E5;
+}
+
+.selected {
+   box-shadow: 0px 0px 4px 1px #3E7FFF;
+}
